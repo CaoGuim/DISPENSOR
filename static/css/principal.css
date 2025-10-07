@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #1d84d8;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.card{
+    background: #def3f6;
+    /* padding: .2rem 2rem 1.5rem 2rem; */
+    border-radius: 1rem;
+    border: 2px solid #000;
+    margin: 0 auto;
+    width:300px;
+    height:50:px;
+    position: relative;
+    top: 300px;
+}
+
+.estado{
+    background-color: #def3f6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-radius: 1rem 1rem .5rem .5rem;
+    border-bottom: 2px solid #000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.valor{
+    background-color: #def3f6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-radius: 1rem 1rem .5rem .5rem;
+    border-bottom: 2px solid #000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.nav{
+    background-color: #1b50c2;
+    height: 10vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.title-nav{
+    color: #fff;
+    width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+}

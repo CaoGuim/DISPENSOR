@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Dispensor de alimentos</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/principal.css') }}">
+{% endblock %}
+
+{% block body %}
+    <main>
+        <nav class="nav">
+            <h1 class="title-nav">DISPENSOR DE ALIMENTOS</h1>
+        </nav>
+        <div class="card">
+            <div class="valor">
+                <p>valor: {{ dicvalor }}</p>
+            </div>
+            <div class="estado">
+                <p>estado: {{ dicestado }}</p>
+            </div>
+            </div>
+    </main>
+{% endblock %}

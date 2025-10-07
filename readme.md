@@ -1,7 +1,3 @@
-# Arduíno que checa a qualidade de vida de plantas
+# FoodDispenser
 
----
-
-> **Intenção do projeto**
-
-A intenção do projeto é checar com o arduíno que está integrado a um banco, site pessoal e sua planta, se sua umidade, temperatura e luminosidade estão dentro de um nível correto para a planta desenvolver-se bem
+This is a college project made by me and my colleague, it's a prototype of an animal food dispenser that detects when the bowl is empty and fills it.
